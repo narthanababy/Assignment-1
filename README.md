@@ -4,7 +4,10 @@ Marketing Intelligence Dashboard
 
 A Streamlit-based interactive dashboard for analyzing marketing campaigns across Facebook, Google, and TikTok, alongside business performance metrics. Visualize KPIs, compare channels, and track campaign performance over time.
 
-🚀 Features
+# Working demo:
+[Hosted BI Dashboard](https://youtu.be/FZldanBrgvY)
+
+## 🚀 Features
 
 Campaign Data Analysis
 
@@ -26,9 +29,9 @@ Time series charts for spend vs revenue.
 
 Channel-wise performance comparison.
 
-KPI cards for quick insights.
+# KPI cards for quick insights.
 
-🗂 Repository Structure
+# 🗂 Repository Structure
 marketing-dashboard/
 │
 ├─ data/
@@ -44,22 +47,22 @@ marketing-dashboard/
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Project documentation
 
-⚡ Installation
+# ⚡ Installation
 
-Clone the repository:
+## Clone the repository:
 
 git clone <repo-url>
 cd marketing-dashboard
 
 
-Install dependencies:
+## Install dependencies:
 
 pip install -r requirements.txt
 
 
 Make sure the CSV data files are placed in the data/ folder.
 
-🏃 Run the Dashboard
+## 🏃 Run the Dashboard
 
 Start the Streamlit app:
 
@@ -68,7 +71,7 @@ streamlit run dashboard.py
 
 Open the browser at http://localhost:8501 to view the dashboard.
 
-📊 Usage
+# 📊 Usage
 
 Use the sidebar filters to select channels and date range.
 
@@ -80,7 +83,7 @@ Compare channel performance with bar charts and tables.
 
 Explore business metrics for daily orders, revenue, and profit.
 
-🛠 Dependencies
+# 🛠 Dependencies
 
 Python 3.10+
 
@@ -92,7 +95,7 @@ plotly
 
 streamlit
 
-🔧 Notes
+# 🔧 Notes
 
 Column names in CSV files must match the expected format:
 
@@ -102,6 +105,6 @@ Business: date, # of orders, # of new orders, new customers, total revenue, gros
 
 The src/data_prep.py script standardizes column names and calculates derived metrics for the dashboard.
 
-📌 Author
+# 📌 Author
 
 Developed by Narthana Baby B S
